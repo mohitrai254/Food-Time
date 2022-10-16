@@ -1,6 +1,6 @@
 console.log("Hello world!");
 
-const myName = "Jonas Schmedtmann";
+const myName = "Mohit Rai";
 const h1 = document.querySelector(".heading-primary");
 console.log(myName);
 console.log(h1);
@@ -89,7 +89,7 @@ function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
   flex.style.flexDirection = "column";
-  flex.style.rowGap = "1px";
+  flex.style.rowGap = "2px";
 
   flex.appendChild(document.createElement("div"));
   flex.appendChild(document.createElement("div"));
