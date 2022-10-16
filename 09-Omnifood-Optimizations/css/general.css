@@ -68,7 +68,7 @@ html {
 
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
-  font-size: 62.5%;
+  font-size: 63%;
   overflow-x: hidden;
 
   /* Does NOT work on Safari */
@@ -78,7 +78,7 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 402;
   color: #555;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
@@ -91,7 +91,7 @@ body {
 
 .container {
   /* 1140px */
-  max-width: 120rem;
+  max-width: 122rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
@@ -109,7 +109,7 @@ body {
 } */
 
 .grid:not(:last-child) {
-  margin-bottom: 9.6rem;
+  margin-bottom: 9.7rem;
 }
 
 .grid--2-cols {
